@@ -16,8 +16,228 @@
 
 body {
     background-color: var(--red);
+
+}
+
+.header-container {
+    width: 100%;
+    height: 65px;
+    background-color: var(--red);
+    color: white;
+    box-shadow: 0 0 10px white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+.main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 35px;
+    padding: 28px 0;
+}
+
+.main-container .filter-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-nav .sections {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.sections #btn-combo-filter, #btn-congelados-filter {
+    width: 350px;
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 0 18px;
+}
+
+#btn-combo-filter {
+    color: var(--yellow);
+}
+
+#btn-congelados-filter {
+    color: white;
+}
+
+.sections .text-combo-filter {
+    color: #E3A01D;
+}
+
+.sections .text-congelados-filter {
+    color: white;
+}
+
+.filter-nav .section-indicator {
+    height: 2px;
+    width: 350px;
+    background-color: white;
+
+}
+
+.section-indicator .line-indicator {
+    background-color: var(--yellow);
+    height: 2px;
+    width: 155px;
+}
+
+.main-container .products-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.products-container .combos {
+    width: 300px;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px white;
+}
+
+.products-container .congelados {
+    width: 300px;
+    height: 162px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px white;
+}
+
+.combos .image-product, .congelados .image-product {
+    width: 125px;
+    height: 162px;
+}
+
+.combos .infor-product, .congelados .infor-product {
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.infor-product .name-and-price {
+    text-align: center;
+    line-height: 20px;
+    color: var(--yellow);
+}
+
+.infor-product .name-and-price h3 {
+    font-size: 28px;
+}
+
+.infor-product .name-and-price p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.infor-product ul {
+    list-style-type: disc;
+    color: white;
+    font-size: 13px
+}
+
+.infor-product #btn-pedir-combo {
+    width: 145px;
+    height: 32px;
+    background-color: var(--yellow);
+    color: white;
+    outline: 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.infor-product #btn-pedir-combo:hover {
+    opacity: .9;
+}
+
+.main-container #fade {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+}
+
+.modal-combos {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 320px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 32px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    z-index: 10;
+
+}
+
+.modal-combos p {
+    text-align: center;
+}
+
+.modal-combos .btns-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btns-modal .btn-action-combos, #btn-cancel-combos {
+    width: 235px;
+    height: 40px;
+    outline: 0;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.btns-modal .btn-action-combos {
+    background-color: var(--yellow);
+}
+
+.btns-modal .btn-action-combos:hover {
+    opacity: .9;
+}
+
+.btns-modal #btn-cancel-combos {
+    background-color: var(--red);
+}
+
+.btns-modal #btn-cancel-combos:hover {
+    opacity: .9;
 }

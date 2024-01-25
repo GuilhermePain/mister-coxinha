@@ -88,6 +88,10 @@ ul .link-whatsapp {
     cursor: pointer;
 }
 
+ul .link-whatsapp:hover {
+    opacity: .9;
+}
+
 ul .link-whatsapp a {
     text-decoration: none;
     color: var(--yellow);
@@ -107,19 +111,8 @@ ul .link-whatsapp a .icon-container {
     align-items: center;
 }
 
-ul .link-whatsapp a .title-and-legend {
-    line-height: 18px;
-    margin-top: 10px;
-}
-
-ul .link-whatsapp a .title-and-legend p {
-    color: #ffff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-}
-
 ul .link-whatsapp:hover {
-    
+    opacity: .8;
 }
 
 ul .link {
@@ -147,6 +140,10 @@ ul .link a .icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+ul .link:hover {
+    opacity: .8;
 }
 
 main h3 {

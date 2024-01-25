@@ -4,236 +4,308 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/nossosProdutos.css">
+    <script defer src="./assets/scripts/nossosProdutos.js"></script>
     <title>Nossos produtos</title>
 </head>
 <body>
     <header class="header-container">
         <a href="index.html">
-            <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-arrow-left" style="color: #ffffff; font-size: 28px;"></i>
         </a>
         <h1>Nossos Produtos</h1>
         &nbsp;
     </header>
-    <nav class="filter-nav">
-        <div class="sections">
-            <h2>Combos</h2>
-            <h2>Congelados</h2>
+    <div class="main-container">
+        <nav class="filter-nav">
+            <div class="sections">
+                <button id="btn-combo-filter">Combos</button>
+                <button id="btn-congelados-filter">Congelados</button>
+            </div>
+            <div class="section-indicator">
+                <div class="line-indicator"></div>
+            </div>
+        </nav>
+        <ul class="products-container">
+            <li class="combos">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-combo">Pedir</button>
+                </div>
+            </li>
+            <li class="combos">
+                <div class="image-product">
+                    <img src="./assets/img/combo2.svg" alt="imagem do combo 2">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 2</h3>
+                        <p>R$25,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            50 unidades de salgado
+                        </li>
+                        <li>
+                            2 refris 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-combo">Pedir</button>
+                </div>
+            </li>
+            <li class="combos">
+                <div class="image-product">
+                    <img src="./assets/img/combo4.svg" alt="imagem do combo 4">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 4</h3>
+                        <p>R$46,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            100 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 1L
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-combo">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/coxinha-congelada.svg" alt="imagem de coxinha congelada">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Coxinha</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            100 unidades de salgado
+                        </li>
+                        <li>
+                            Peso médio: 12g
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+            <li class="congelados">
+                <div class="image-product">
+                    <img src="./assets/img/combo1.svg" alt="imagem do combo 1">
+                </div>
+                <div class="infor-product">
+                    <div class="name-and-price">
+                        <h3>Combo 1</h3>
+                        <p>R$10,00</p>
+                    </div>
+                    <ul>
+                        <li>
+                            20 unidades de salgado
+                        </li>
+                        <li>
+                            1 refri 200ml
+                        </li>
+                    </ul>
+                    <button id="btn-pedir-congelado">Pedir</button>
+                </div>
+            </li>
+        </ul>
+        <div id="fade"></div>
+        <div class="modal-combos">
+            <div class="text-modal">
+                <p>Escolha uma opção para ser redirecionado e fazer seu pedido.</p>
+            </div>
+            <div class="btns-modal">
+                <a href="">
+                    <button class="btn-action-combos">Whatsapp</button>
+                </a>
+                <a href="">
+                    <button class="btn-action-combos">QueroDelivery!</button>
+                </a>
+                <a href="">
+                    <button class="btn-action-combos">Menudino</button>
+                </a>
+                <button id="btn-cancel-combos">Cancelar</button>
+            </div>
         </div>
-        <div class="section-indicator">
-            <div class="line-indicator"></div>
-        </div>
-    </nav>
-    <ul class="products-container">
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <li class="combos">
-            <div class="image-product"></div>
-            <div class="infor-product">
-                <h3>Combo 1</h3>
-                <p>R$10,00</p>
-            </div>
-            <ul>
-                <li>
-                    20 unidades de salgado
-                </li>
-                <li>
-                    1 refri 200ml
-                </li>
-            </ul>
-            <button>Pedir</button>
-        </li>
-        <p>@mistercoxinha</p>
-    </ul>
+    </div>
     <script src="https://kit.fontawesome.com/97ae76578e.js" crossorigin="anonymous"></script>
 </body>
 </html>
