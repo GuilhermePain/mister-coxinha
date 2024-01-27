@@ -51,10 +51,10 @@ body {
 }
 
 .congelados {
-    width: 300px;
+    width: 320px;
     height: 162px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-radius: 30px;
     box-shadow: 0 0 10px white;
@@ -72,6 +72,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-right: 10px;
 }
 
 .name-and-price {
