@@ -1,8 +1,8 @@
-function showModalCombos() {
+function showModal() {
     const btnPedirCongelado = document.querySelectorAll('#btn-pedir-congelado');
     const fadeBackground = document.querySelector('#fade');
-    const modalCombos = document.querySelector('#modal');
-    const btnCancelCombos = document.querySelector('#btn-cancel');
+    const modal = document.querySelector('#modal');
+    const btnCancel = document.querySelector('#btn-cancel');
 
     const showModal = () => {
         fadeBackground.style.display = 'block';
@@ -18,8 +18,8 @@ function showModalCombos() {
         buttons.addEventListener('click', showModal);
     })
     
-    btnCancelCombos.addEventListener('click', closeModal)
+    btnCancel.addEventListener('click', closeModal)
     fadeBackground.addEventListener('click', closeModal);
 }
 
-showModalCombos();
+showModal();
