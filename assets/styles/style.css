@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Open+Sans:wght@600&display=swap');
 
 :root {
-    --red: #D60404;
+    --red: #bc0000;
     --yellow: #E3A01D;
-    --white: #f0f0f0;
+    --white: #F0F0F0;
 }
 
 * {
