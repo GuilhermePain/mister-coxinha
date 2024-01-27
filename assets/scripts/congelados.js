@@ -6,12 +6,12 @@ function showModal() {
 
     const showModal = () => {
         fadeBackground.style.display = 'block';
-        modalCombos.style.display = 'flex';
+        modal.style.display = 'flex';
     }
 
     const closeModal = () => {
         fadeBackground.style.display = 'none';
-        modalCombos.style.display = 'none';
+        modal.style.display = 'none';
     }
 
     btnPedirCongelado.forEach(buttons => {
