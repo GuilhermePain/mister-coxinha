@@ -15,8 +15,7 @@
 }
 
 body {
-    background-image: url(../img/background-pattern.svg);
-    background-repeat: repeat;
+    background-color: var(--red);
 }
 
 .header-container {
