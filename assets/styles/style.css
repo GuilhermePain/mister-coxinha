@@ -38,8 +38,8 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 145px;
+    height: 145px;
     box-shadow: 0 0 10px 2px white;
 }
 
@@ -129,7 +129,7 @@ footer {
     width: 100%;
     background-color: var(--yellow);
     text-align: center;
-    position: relative;
+    position: fixed;
     bottom: 0;
 }
 
