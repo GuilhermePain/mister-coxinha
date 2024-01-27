@@ -29,7 +29,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 35px;
     padding: 25px;
 }
 
@@ -118,10 +118,6 @@ ul .icon-container {
 ul .link-whatsapp:hover,
 ul .link:hover {
     opacity: .8;
-}
-
-main h3 {
-    margin-top: 20px;
 }
 
 main h3 a {
