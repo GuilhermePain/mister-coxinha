@@ -15,7 +15,8 @@
 }
 
 body {
-    background-color: var(--red);
+    background-image: url(../img/background-pattern.svg);
+    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,6 +35,7 @@ main {
 }
 
 .logo {
+    background-color: #bc0000;
     display: flex;
     justify-content: center;
     align-items: center;
