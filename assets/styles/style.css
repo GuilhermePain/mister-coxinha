@@ -95,10 +95,6 @@ ul .link {
     cursor: pointer;
 }
 
-ul .link:hover {
-    opacity: .8;
-}
-
 ul .link a {
     text-decoration: none;
     color: var(--yellow);
@@ -118,7 +114,7 @@ ul .icon-container {
     align-items: center;
 }
 
-ul .link:hover {
+ul .link:active {
     opacity: .8;
 }
 
