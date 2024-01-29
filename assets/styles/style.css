@@ -15,7 +15,8 @@
 }
 
 body {
-    background-color: #bc0000;
+    background-image: url(../img/background-pattern.svg);
+    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
