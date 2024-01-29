@@ -77,8 +77,9 @@ main h3 a {
     padding: 8px;
 }
 
-.slogan-links p {
-    white-space: pre-line;
+.slogan-links .div-p {
+    width: 300px;
+    flex-wrap: wrap;
 }
 
 ul {
