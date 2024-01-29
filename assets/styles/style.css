@@ -77,6 +77,10 @@ main h3 a {
     padding: 8px;
 }
 
+.slogan-links p {
+    white-space: pre-line;
+}
+
 ul {
     display: flex;
     flex-direction: column;
