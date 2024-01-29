@@ -25,7 +25,6 @@ body {
 
 main {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,6 +46,11 @@ main {
 
 .logo img {
     width: 100%;
+}
+
+main h3 a {
+    color: var(--white);
+    text-decoration: none;
 }
 
 .container-links {
@@ -118,15 +122,9 @@ ul .link:hover {
     opacity: .8;
 }
 
-main h3 a {
-    color: var(--white);
-    text-decoration: none;
-}
-
 footer {
     width: 100%;
     text-align: center;
-    position: relative;
 }
 
 footer a {
