@@ -124,9 +124,10 @@ main h3 a {
 }
 
 footer {
+    width: 100%;
     text-align: center;
     position: relative;
-    bottom: 10;
+    background-color: whitesmoke;
 }
 
 footer a {
