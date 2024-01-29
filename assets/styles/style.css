@@ -82,7 +82,6 @@ ul {
     padding: 20px 14px;
 }
 
-ul .link-whatsapp,
 ul .link {
     width: 305px;
     background-color: var(--red);
@@ -91,12 +90,10 @@ ul .link {
     cursor: pointer;
 }
 
-ul .link-whatsapp:hover,
 ul .link:hover {
     opacity: .8;
 }
 
-ul .link-whatsapp a,
 ul .link a {
     text-decoration: none;
     color: var(--yellow);
@@ -116,7 +113,6 @@ ul .icon-container {
     align-items: center;
 }
 
-ul .link-whatsapp:hover,
 ul .link:hover {
     opacity: .8;
 }
