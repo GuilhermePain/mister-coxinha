@@ -15,7 +15,7 @@
 }
 
 body {
-    background-image: url(../img/background-pattern.svg);
+    background-image: url(../../assets/svg/background-pattern.svg);
     background-repeat: repeat;
 }
 
@@ -80,16 +80,17 @@ body {
 .name-and-price {
     text-align: center;
     line-height: 20px;
-    color: var(--yellow);
 }
 
 .name-and-price h3 {
     font-size: 28px;
+    color: var(--yellow);
 }
 
 .name-and-price p {
     font-size: 15px;
     font-weight: bold;
+    color: var(--white);
 }
 
 .infor-product ul {
@@ -112,6 +113,13 @@ body {
 
 #btn-pedir-congelado:hover {
     opacity: .9;
+}
+
+#btn-pedir-congelado:active {
+    background-color: transparent;
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
+    transition: all 9ms;
 }
 
 #fade {
@@ -170,6 +178,12 @@ body {
     background-color: var(--red);
 }
 
+#btn-cancel:active {
+    background-color: transparent;
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+
 #btn-cancel:hover {
     opacity: .8;
 }
@@ -180,4 +194,10 @@ body {
 
 .btn-prosseguir:hover {
     opacity: .9;
+}
+
+.btn-prosseguir:active {
+    background-color: transparent;
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
 }

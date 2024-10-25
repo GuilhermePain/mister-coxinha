@@ -15,7 +15,7 @@
 }
 
 body {
-    background-image: url(../img/background-pattern.svg);
+    background-image: url(../../assets/svg/background-pattern.svg);
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
@@ -51,6 +51,10 @@ main {
 main h3 a {
     color: var(--white);
     text-decoration: none;
+}
+
+main h3 a:hover {
+    color: var(--yellow);
 }
 
 .container-links {
@@ -96,8 +100,15 @@ ul .link {
     width: 305px;
     background-color: var(--red);
     border-radius: 30px;
+    border: 2px solid transparent;
     padding: 6px;
     cursor: pointer;
+}
+
+ul .link:active {
+    background-color: transparent;
+    border: 2px solid var(--red);
+    transition: all 9ms;
 }
 
 ul .link a {
@@ -107,6 +118,11 @@ ul .link a {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+
+ul .link a:active {
+    color: var(--red);
+    transition: all 9ms;
 }
 
 ul .icon-container {
